@@ -6,7 +6,7 @@
     <session-factory>
         <!-- Настройки подключения к базе данных -->
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <property name="hibernate.connection.url">jjdbc:postgresql://localhost:5442/postgres</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5442/postgres</property>
         <property name="hibernate.connection.username">user</property>
         <property name="hibernate.connection.password">pass</property>
 

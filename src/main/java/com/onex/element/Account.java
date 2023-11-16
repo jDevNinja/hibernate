@@ -48,4 +48,17 @@ public class Account {
   public void setFullName(String fullName) {
     this.fullName = fullName;
   }
+
+  @Override
+  public String toString() {
+    return "Account{"
+        + "id="
+        + id
+        + ", balance="
+        + balance
+        + ", fullName='"
+        + fullName
+        + '\''
+        + '}';
+  }
 }
